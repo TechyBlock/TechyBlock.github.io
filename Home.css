@@ -1,0 +1,50 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.jumbotron {
+    background-image: url(images/wd1.jpg);
+    background-position: 0% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+	color: white;
+    
+}
+/* unvisited link */
+a:link {
+    color: #231F20;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #231F20;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: grey;
+	text-decoration: none;
+}
+
+.card{
+    
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+
+}
+
+
+
+
+
+
+	
+
