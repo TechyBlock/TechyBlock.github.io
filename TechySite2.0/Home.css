@@ -4,8 +4,8 @@ body {
 }
 
 .jumbotron {
-    background-color: #C0392B;
-    background-position: 0% 0%;
+    background-image: url(images/wd1.jpg);
+    background-position: 0% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 	color: white;
@@ -13,13 +13,13 @@ body {
 }
 /* unvisited link */
 a:link {
-    color: black;
+    color: #231F20;
 	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: black;
+    color: #231F20;
 	text-decoration: none;
 }
 
@@ -31,13 +31,21 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: black;
+    color: grey;
 	text-decoration: none;
 }
+
 .card{
-	    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 
 }
+
+.alert{
+    margin-bottom: 0px; 
+  }
+
+
 
 
 

@@ -1,0 +1,45 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  color: #0d0d0d;
+  
+}
+
+body.home {
+	 color:white;
+	 background-image:url("images/unturnedfire.jpg");
+	 background-size: 100% auto;
+	 background-repeat: no-repeat;
+	 background-color:black;
+}
+
+.panel panel-default {
+	     margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+
+
+
+
+
+
+

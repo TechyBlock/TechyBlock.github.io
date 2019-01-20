@@ -6,25 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="Images/TechyBlack.png">
+    <link rel="icon" href="ico/tbLOGO2.png">
 	
 
-    <title>TS / Maintenance</title>
+    <title>Maintenance - TechyBlock</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
-    <!-- Custom styles for this template -->
-    <link href="/jumbotronMain.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+  
   </head>
+  <style>
+  /* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+  background-color: #E67E22;
+}
 
+.jumbotron {
+    background-color: #E67E22;
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+	color: white;
+    
+}
+/* unvisited link */
+a:link {
+    color: black;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+	text-decoration: none;
+}
+.card{
+	    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+  </style>
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 	
-     <a class="navbar-brand" href="#">
-    <img src="Images/TechyBlack3.png" width="30" height="30" class="d-inline-block align-top" alt="Home.html">
-    TechySite
+     <a class="navbar-brand" href="Maintenance.html">
+    <img src="ico/tbLOGO2.png" width="30" height="30" class="d-inline-block align-top" alt="Home.html">
+    
   </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,24 +71,17 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          
-		  
-          
-          
+    
         </ul>
        
       </div>
     </nav>
 
-          
-
-   
-		
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-1">Maintenance</h1>
-          <p>Working on things, Just wait. Site will be up soon.</p>
+          <p>Site is down right now, Be patient as the website changes or is fixed.</p>
           
         </div>
       </div>
@@ -66,15 +98,12 @@
     </main>
 	
 
-    <footer class="container">
-      <p>Made by TechyBlock ✔ // Built with <a href="https://getbootstrap.com/"><b>Bootstrap!</b></a></p>
-    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>  </body>
 </html>

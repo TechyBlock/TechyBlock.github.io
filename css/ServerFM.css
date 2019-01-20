@@ -1,0 +1,100 @@
+body {
+  padding-top: 3.5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+
+.jumbotron {
+    background-image: url(../img/cpchase.PNG);
+    background-position: 0% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+	color: white;
+    margin-bottom: 0px;
+    height: 20px;
+    
+}
+/* unvisited link */
+a:link {
+    color: #2c3e50;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #2c3e50;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #7f8c8d;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #7f8c8d;
+	text-decoration: none;
+}
+
+.iframe-container {
+    overflow: hidden;
+    position: relative;
+    padding-top: 56.25%;
+
+    
+  }
+  
+  .iframe-container iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.box-shadow{
+    transition: box-shadow .3s;
+    box-shadow: 0 .20rem .20rem rgba(0, 0, 0, .05);
+  }
+  
+  
+  
+  .card{
+    
+    transition: box-shadow .3s;
+    box-shadow: 0 .20rem .20rem rgba(0, 0, 0, .05);
+  
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 20px; /* Added */
+  
+  }
+
+
+
