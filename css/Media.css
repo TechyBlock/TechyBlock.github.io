@@ -1,0 +1,81 @@
+body {
+  padding-top: 3.5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: linear-gradient(to right, #CF211E , #9B1B19);
+    background-position: 0% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+	color: white;
+  height: 20px;
+}
+
+.img{
+  margin-right: 100px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #ffffff;
+}
+
+.card:hover{
+  box-shadow: 0 .45rem .95rem rgba(0, 0, 0, .05);
+
+}
+
+.box-shadow:hover{
+  box-shadow: 0 .45rem .95rem rgba(0, 0, 0, .05);
+
+}
+.box-shadow{
+  transition: box-shadow .3s;
+  box-shadow: 0 .20rem .20rem rgba(0, 0, 0, .05);
+}
+
+
+
+.card{
+  
+  transition: box-shadow .3s;
+  box-shadow: 0 .20rem .20rem rgba(0, 0, 0, .05);
+
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 20px; /* Added */
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+

@@ -1,0 +1,159 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.6rem;
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.jumbotron {
+    background: linear-gradient(to right, #FF7D00 , transparent, transparent), url("../img/wd3.jpg");
+    background-position: 0% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.856);
+    
+    
+}
+/* unvisited link */
+a:link {
+    color: #231F20;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #231F20;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: Black;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+	text-decoration: none;
+}
+
+.card{
+    transition: box-shadow .3s;
+    box-shadow: 0 .0rem .0rem rgba(0, 0, 0, .05);
+
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 1px; /* Added */
+
+}
+
+.card:hover{
+    box-shadow: 0 .35rem .85rem rgba(0, 0, 0, .05);
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #ffffff;
+  }
+
+  .alert{
+    margin-bottom: 0px; 
+  }
+
+  .icon {
+    margin-top: 0px; 
+    margin-right: 30px; 
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+  }
+  .img-inline {
+    margin-bottom: 7px;
+    margin-top: 7px; 
+  }
+
+
+  .iframe{
+    margin: 0 auto; /* Added */
+ 
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.card-container {
+    perspective: 700px;
+    
+  }
+  
+  .card-flip, .card-container {
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+  }
+  
+  .card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+  
+  .back {
+    transform: rotateY(-180deg);
+  }
+  
+  .card-container:hover .card-flip {
+    transform: rotateY(180deg);
+  }
+
+  .card-flip {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack";
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+  }
+  
+  .front {
+    grid-area: frontAndBack;
+  }
+  
+  .back {
+    grid-area: frontAndBack;
+    transform: rotateY(-180deg);
+  }
+
+
+
+
+
+
+
+	
+
